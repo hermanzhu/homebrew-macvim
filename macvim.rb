@@ -2,8 +2,10 @@ require 'formula'
 
 class Macvim < Formula
   desc 'GUI for vim, made for OS X'
-  homepage 'https://github.com/macvim-dev/macvim'
-  head 'https://github.com/macvim-dev/macvim.git'
+  #homepage 'https://github.com/macvim-dev/macvim'
+  #head 'https://github.com/macvim-dev/macvim.git'
+  homepage 'https://github.com/hermanzhu/macvim'
+  head 'https://github.com/hermanzhu/macvim.git'
 
   option 'with-properly-linked-python2-python3', 'Link with properly linked Python 2 and Python 3. You will get deadly signal SEGV if you don\'t have properly linked Python 2 and Python 3.'
 
